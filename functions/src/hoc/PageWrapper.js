@@ -5,7 +5,7 @@ const Empty = () => {
     return (<></>);
 }
 
-const PageWrapper = ({title, Child, Hero}) => function HOC() {
+const PageWrapper = ({fallback_title, Child, Hero}) => function HOC({data, title}) {
     if (!Hero) {
         Hero = Empty;
     }
@@ -13,7 +13,7 @@ const PageWrapper = ({title, Child, Hero}) => function HOC() {
     return (
         <div>
             <Head>
-                <title>Anton Volokha | {title}</title>
+                <title>{title ?? fallback_title} //Anton Volokha</title>
                 <meta name="description" content="Anton Volokha personal website"/>
             </Head>
 
@@ -23,7 +23,7 @@ const PageWrapper = ({title, Child, Hero}) => function HOC() {
                         <Navbar/>
                         <Hero/>
                     </div>
-                    <Child/>
+                    <Child data={data}/>
                 </div>
             </main>
             <Footer/>

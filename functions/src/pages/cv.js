@@ -19,5 +19,5 @@ const CV = () => {
     );
 }
 
-export default PageWrapper({title: 'CV', Child: CV, Hero: Hero});
+export default PageWrapper({fallback_title: 'CV', Child: CV, Hero: Hero});
 

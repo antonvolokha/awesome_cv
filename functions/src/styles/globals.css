@@ -203,3 +203,121 @@
     }
 }
 
+.markdown {
+    background-color: rgb(5 8 22 / var(--tw-bg-opacity));
+}
+
+.markdown h1 {
+    font-size: 1.2em !important;
+    font-weight: 700;
+    line-height: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.markdown h2 {
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 1em 0;
+}
+
+.markdown h3 {
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 1em 0;
+}
+
+.markdown p {
+    line-height: 1.4em;
+    margin: 1.4em 0;
+}
+
+.markdown blockquote {
+    font-family: Helvetica;
+    font-size: 1.2em;
+    margin: 0 0;
+    text-align: center;
+    background-color: rgba(232, 232, 232, 0.04);
+    padding: 1px 14px;
+}
+
+.markdown a {
+    border-bottom: 1px dotted;
+}
+
+.markdown a {
+    border-bottom: 1px dotted;
+}
+.markdown h1 {
+    font-size: 2em;
+}
+.markdown h2 {
+    font-size: 1.5em;
+}
+.markdown h3 {
+    font-size: 1.3em;
+}
+.markdown h4 {
+    font-size: 1.2em;
+}
+.markdown h5 {
+    font-size: 1em;
+}
+.markdown h6 {
+    font-size: 1em;
+    color: #939393;
+}
+.markdown hr {
+    border: 1px dashed #ddd;
+}
+.markdown strong {
+    font-weight: bold;
+}
+.markdown em,
+.markdown cite {
+    font-style: italic;
+}
+.markdown sup,
+.markdown sub {
+    font-size: 0.75em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.markdown sup {
+    top: -0.5em;
+}
+.markdown sub {
+    bottom: -0.2em;
+}
+.markdown small {
+    font-size: 0.85em;
+}
+.markdown acronym,
+.markdown abbr {
+    border-bottom: 1px dotted;
+}
+.markdown ul,
+.markdown ol,
+.markdown dl {
+    margin: 0 25px;
+    line-height: 1.4em;
+}
+.markdown ul ul,
+.markdown ol ul,
+.markdown ul ol,
+.markdown ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.markdown ul {
+    list-style: disc;
+}
+.markdown ol {
+    list-style: decimal;
+}
+.markdown dt {
+    font-weight: bold;
+}
+

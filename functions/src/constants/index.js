@@ -244,4 +244,6 @@ const projects = [
     },
 ];
 
-export {services, technologies, experiences, testimonials, projects};
+const githublink = "https://github.com/antonvolokha";
+
+export {services, technologies, experiences, testimonials, projects, githublink};
