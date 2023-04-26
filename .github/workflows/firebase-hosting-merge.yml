@@ -14,8 +14,8 @@ jobs:
         run: 'cd functions && npm install'
       - uses: actions/checkout@v3
         run: 'cd functions && npm run build'
+      - uses: joinflux/firebase-tools@master
       - name: Deploy to Firebase
-        uses: joinflux/firebase-tools@master
         with:
           args: deploy --only hosting
         env:
